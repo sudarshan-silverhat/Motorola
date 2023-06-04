@@ -8,7 +8,7 @@ pipeline {
                                 }}
                 stage('Build') {
                         steps {
-                                sh '/home/asta/group/apache-maven-3.9.1/bin/mvn install'
+                                sh '/home/raspsberry/DevOPS/apache-maven-3.9.1/bin/mvn install'
                                 }}
                 stage('Deployment'){
                         steps {
